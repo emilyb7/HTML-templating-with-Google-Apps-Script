@@ -203,6 +203,6 @@ You can choose whether to keep your app private or public. In order to re-deploy
 
 Here are a few more learnings:
 - Users need to be logged into Google in order to use an app
-- Apps are 'sandboxed' and run as an iframe - read more about this [here](https://developers.google.com/apps-script/migration/iframe){:target="_blank"}
+- Apps are 'sandboxed' and run as an iframe - read more about this [here](https://developers.google.com/apps-script/migration/iframe)
 
 Here's another link to the working version of the app: https://script.google.com/macros/s/AKfycbxdJY3xoJWj028yF3D6a6eYywn2eR3oWNvxAgbQ1ltlKoVJeXIk/exec
