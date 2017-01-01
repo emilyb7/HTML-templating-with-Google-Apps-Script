@@ -21,7 +21,7 @@ However, unlike regular client side JS, GAS is run server-side, i.e. on Google's
 
 Here's an example of how to get data about the first developer in my table of developer applications:
 
-```
+```js
 function getFirstApplicant() {
   var ss = SpreadsheetApp.getActiveSpreadsheet(); // you need this to start!
   var sheet = ss.getSheetByName("developers");  // the sheet I'm working on
