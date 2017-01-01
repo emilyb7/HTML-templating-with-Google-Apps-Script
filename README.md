@@ -72,3 +72,9 @@ https://docs.google.com/spreadsheets/d/1bV2zhcos61W5cUaRL7seumiGBiYJX5QZVa8qeBNL
 ).
 
 We want to take the data in this spreadsheet and present it in a more readable manner (assume that in reality there is a lot more data being collected in our application form, and so the spreadsheet becomes unreadable).
+
+I won't go through the code in the ```.gs``` file here, as it's not the purpose of this readme. Instead I will focus on the ```template.html```, which can be viewed either in the script editor of the spreadsheet or as uploaded to this repo.
+
+  The deployed web app can be viewed [here](https://script.google.com/macros/s/AKfycbxdJY3xoJWj028yF3D6a6eYywn2eR3oWNvxAgbQ1ltlKoVJeXIk/exec).
+
+### Using scriptlets to pre-load data
