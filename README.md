@@ -46,7 +46,7 @@ In this case, however, we're making a standalone web app which we can deploy eit
 
 To create an html template, go to 'file' >> 'new' in the Google Script Editor and select 'HTML file' from the menu.
 
-![Screenshot](/Users/emilybertwistle/Desktop/Screen Shot 2017-01-01 at 17.07.03.png)
+![Screenshot](Screen Shot 2017-01-01 at 17.07.03.png)
 
 Your new html file should have some html pre-loaded into it. You can add regular html, css and javascript to this, just as you would if you were writing code for the browser. As far as I can tell, all the regular functionality - like manipulating DOM elements and logging to the browser console - are available to us.
 
