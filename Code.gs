@@ -1,11 +1,11 @@
 var ss = SpreadsheetApp.getActiveSpreadsheet();
 var devs = ss.getSheetByName("developers");
 
-
 function getApplicants() {
-  return devs.getRange(2, 1, devs.getLastRow() - 1).getValues().reduce(function (a, b) {
-    a.push(b[0]);
-    return a;
+  return devs.getRange(2, 1, devs.getLastRow() - 1)
+    .getValues()
+    .reduce(function (a, b) { 
+      return a.concat(b[0])
   }, []);
 }
 
@@ -25,7 +25,7 @@ function getData (name) {
   var dev = allData.filter(function (row) {
     return row[0] === name;
   })[0];
-
+    
   return {
     name: dev[0],
     github: dev[1],
@@ -35,8 +35,9 @@ function getData (name) {
   }
 }
 
-function doGet() {
+function doGet() { 
   return HtmlService
   .createTemplateFromFile('template')
-  .evaluate();
+  .evaluate(); 
 }
+
