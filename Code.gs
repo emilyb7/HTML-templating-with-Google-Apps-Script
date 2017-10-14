@@ -4,7 +4,7 @@ var devs = ss.getSheetByName("developers");
 function getApplicants() {
   return devs.getRange(2, 1, devs.getLastRow() - 1)
     .getValues()
-    .reduce(function (a, b) { 
+    .reduce(function (a, b) { // flatten array
       return a.concat(b[0])
   }, []);
 }
