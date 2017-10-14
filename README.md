@@ -156,7 +156,7 @@ We'll use a loop to add an ```<option>``` to our select field for each of the ap
 
 The syntax for a loop is as follows:
 
-```
+```js
 <? var array = [];
       for (var i = 0; i < array.length; i++) { ?>
         <p><?= array[i] ?></p> // the p tags can be replaced by any html element!
