@@ -13,9 +13,9 @@ This readme assumes basic working knowledge of web development (HTML and JavaScr
 
 This section provides a very brief explanation of Google Apps Script for those with little to no prior knowledge.
 
-Like macros in MS Excel, Google Apps Script (GAS) allows you to write scripts that can read, edit and manipulate your spreadsheets. You can also do lots of other things with it, like read files from your Google Drive or send emails from your Gmail account.
+Like macros in MS Excel, Google Apps Script (GAS) allows you to write scripts that can read, edit and manipulate your sheets. You can also do lots of other things with it, like read files from your Google Drive or send emails from your Gmail account.
 
-GAS is Javascript based and - if you're already familiar with Javascript - pretty easy to pick up. The syntax for interacting with your spreadsheet is similar to that for interacting with the DOM in vanilla Javascript.
+GAS is JavaScript based and - as long as you're already familiar with JavaScript - pretty easy to pick up. The syntax for interacting with your spreadsheet is similar to that for interacting with the DOM in vanilla Javascript.
 
 Instead of querying the DOM for HTML elements, you can access sheets, rows, columns and other ranges of data and their values.
 
@@ -51,7 +51,7 @@ To create an HTML template, go to ```file >> new``` in the Google Script Editor 
 
 ![Screenshot](Screen Shot 2017-01-01 at 17.07.03.png)
 
-Your new HTML file should have some HTML pre-loaded into it. You can add regular HTML, css and javascript to this, just as you would if you were writing code for the browser. As far as I can tell, all the regular functionality - like manipulating DOM elements and logging to the browser console - is available to us.
+Your new HTML file should have some HTML pre-loaded into it. You can add regular HTML, CSS and JavaScript to this, just as you would if you were writing code for the browser. You can use all the functionality always available to you in your browser.
 
 You can use your web app to interact with the data in your spreadsheet in two ways:
 
@@ -64,9 +64,9 @@ To briefly sum up what we've looked at so far, here's how I would compare the GA
 | Google Apps | Web |
 | --- | --- |
 | Data in a spreadsheet | Database |
-| Spreadsheet App | Nice database client |
-| Google Script | Server-side code |
-| Google HTML file | An HTML template served up by your server |
+| Spreadsheet | Nice database client or CMS - allows you to read or write data manually |
+| Google Script | Server-side code (model/contoller) - reads and writes to your spreadsheet |
+| Google HTML file | An HTML template rendered on the server (view) |
 
 ## Making our app
 
@@ -171,7 +171,7 @@ For our single page app, we need to be able to load in data from the spreadsheet
 
 The rest of our script will be added in separately between ```<script>``` tags.
 
-**Note**: do this at the end of your body and **not** in the head, else the page won't render properly.
+**Note**: include your script at the end of your body and **not** in the head, else the page won't render properly.
 
 The loading of data for new applicants is triggered by a click event on the "display" button, for which we can use a regular event listener, same as on a regular web page. But the syntax for *retrieving data* from our spreadsheet is a little different from a regular client-side request to a server.
 
