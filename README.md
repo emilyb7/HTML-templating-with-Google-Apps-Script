@@ -158,9 +158,10 @@ The syntax for a loop is as follows:
 
 ```js
 <? var array = [];
-      for (var i = 0; i < array.length; i++) { ?>
-        <p><?= array[i] ?></p> // the p tags can be replaced by any html element!
-    <? } ?>
+  for (var i = 0; i < array.length; i++) { ?>
+    <p><?= array[i] ?></p> // the p tags can be replaced by any html element!
+  <? 
+} ?>
 ```
 
 Check out my solution to see how I solved this for the app we're building. You can view the [docs for writing scriptlets](https://developers.google.com/apps-script/guides/html/templates) here.
