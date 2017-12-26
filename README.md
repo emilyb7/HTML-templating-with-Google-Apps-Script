@@ -72,6 +72,8 @@ To briefly sum up what we've looked at so far, here's how I would compare the GA
 
 As the basis for my app, I started out with this [simple spreadsheet](https://docs.google.com/spreadsheets/d/1bV2zhcos61W5cUaRL7seumiGBiYJX5QZVa8qeBNLx9A/edit#gid=0).
 
+![Screenshot](spreadsheet.png)
+
 We want to take the data in this spreadsheet and present it in a more readable manner (assume that in reality there is a lot more data being collected in our application form, and so the spreadsheet becomes unreadable).
 
 I won't go through the code in the ```.gs``` file here, as it's not the purpose of this readme. Instead I will focus on the ```template.html```, which can be viewed either in the script editor of the spreadsheet or as uploaded to this repo.
