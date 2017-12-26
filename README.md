@@ -21,7 +21,7 @@ Instead of querying the DOM for HTML elements, you can access sheets, rows, colu
 
 However, unlike regular client side JS, GAS is run server-side, i.e. on Google's servers. It can therefore be a lot slower than what we're used to with the browser.
 
-Here's an example of how we can get data from the first row in a [table](https://docs.google.com/spreadsheets/d/1bV2zhcos61W5cUaRL7seumiGBiYJX5QZVa8qeBNLx9A/edit?usp=sharing):
+Here's an example of how we can get data from the first row in a table:
 
 ```js
 //from a table of job applicants
@@ -70,9 +70,7 @@ To briefly sum up what we've looked at so far, here's how I would compare the GA
 
 ## Making our app
 
-As the basis for my app, I started out with this [simple spreadsheet](
-https://docs.google.com/spreadsheets/d/1bV2zhcos61W5cUaRL7seumiGBiYJX5QZVa8qeBNLx9A/edit?usp=sharing
-).
+As the basis for my app, I started out with this [simple spreadsheet](https://docs.google.com/spreadsheets/d/1bV2zhcos61W5cUaRL7seumiGBiYJX5QZVa8qeBNLx9A/edit#gid=0).
 
 We want to take the data in this spreadsheet and present it in a more readable manner (assume that in reality there is a lot more data being collected in our application form, and so the spreadsheet becomes unreadable).
 
@@ -148,7 +146,7 @@ First we need to work on the drop-down menu, which should list the names of the 
 
 ### Loading data with scriptlets
 
-Scriptlets can be as simple as ```<?= new Date() ?>``` or ```<?= 1 + 5 ?>```, but the most obvious use case is to return data from a spreadsheet via a function.
+Scriptlets can be as as ```<?= new Date() ?>``` or ```<?= 1 + 5 ?>```, but the most obvious use case is to return data from a spreadsheet via a function.
 
 In ```Code.gs``` I've written a function ```getApplicants``` that returns an array of all applicants' names.
 
