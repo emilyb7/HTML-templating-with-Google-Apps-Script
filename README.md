@@ -78,7 +78,7 @@ We want to take the data in this spreadsheet and present it in a more readable m
 
 I won't go through the code in the ```.gs``` file here, as it's not the purpose of this readme. Instead I will focus on the ```template.html```, which can be viewed either in the script editor of the spreadsheet or as uploaded to this repo.
 
-The deployed web app can be viewed [here](https://script.google.com/macros/s/AKfycbxdJY3xoJWj028yF3D6a6eYywn2eR3oWNvxAgbQ1ltlKoVJeXIk/exec).
+The deployed web app can be viewed [here](https://script.google.com/macros/s/AKfycbwh4HDtHNnmWB8DURyePbKwlBF3_Q2I8DTBEt2qHP4IQRaIUqE/exec).
 
 ### Getting the document ready
 
@@ -206,4 +206,4 @@ Here are a few more learnings:
 - Users need to be logged into Google in order to use an app
 - Apps are 'sandboxed' and run as an iframe - read more about this [here](https://developers.google.com/apps-script/migration/iframe)
 
-Here's another link to the working version of the app: https://script.google.com/macros/s/AKfycbxdJY3xoJWj028yF3D6a6eYywn2eR3oWNvxAgbQ1ltlKoVJeXIk/exec
+Here's another link to the working version of the app: https://script.google.com/macros/s/AKfycbwh4HDtHNnmWB8DURyePbKwlBF3_Q2I8DTBEt2qHP4IQRaIUqE/exec
