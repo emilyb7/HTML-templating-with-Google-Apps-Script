@@ -8,7 +8,7 @@ For my demo I use a more generic example of comparing applicants for a developer
 
 This readme assumes basic working knowledge of web development (HTML and JavaScript) and of Google Sheets. Google Apps Script is a very powerful tool, and so this is a quick introduction to HTML templates for beginners.
 
-_If you have questions about this repo, please do not hesitate to get in touch. The best way to reach out is to create an issue. I will respond as soon as I can._
+_If you have questions about this project, please do not hesitate to get in touch. The best way to reach out is to create an issue. I will respond as soon as I can._
 
 
 ## Quick intro to writing scripts for Google Sheets
